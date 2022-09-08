@@ -1,7 +1,10 @@
 import './App.css';
 import Footer from './pages/Footer/Footer';
 import Highlight from './pages/Highlight/Highlight';
-// import Services from './pages/Services/Services';
+import TopScroll from './pages/TopScroll/TopScroll';
+import Services from './pages/Services/Services';
+import OurMission from './pages/OurMission/OurMission';
+import Banner from './pages/Banner/Banner';
 
 
 
@@ -37,9 +40,12 @@ function App() {
               </div>
           </div>
       </div> */}
-      {/* <Services/> */}
+      <Banner/>
+      <Services/>
+      <OurMission/>
       <Highlight/>
       <Footer/>
+      <TopScroll/>
     </div>
     
   );

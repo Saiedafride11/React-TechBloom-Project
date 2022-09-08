@@ -1,0 +1,98 @@
+#intro {
+      position: relative;
+      background-color: #fff;
+      opacity: 0.966289;
+      transform: translate(0%, 1.68555%) matrix(0.983145, 0, 0, 0.983145, 0, 0);
+}
+.jumbotron {
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      background: url('http://techboom.ai/images/scale-up-2.jpg') center top;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: #000;
+      margin: 0 0;
+      color: #000;
+      border-radius: 0 !important;
+  }
+.jumbotron h2{
+      font-family: Monoton, cursive;
+      font-size: 15vh;
+      position: relative;
+      top: -5px;
+      z-index: 0;
+  }
+  .animation {
+      position: relative;
+      top: -430px;
+      color: #000;
+  }
+  .jumbotron .cloud1 {
+      top: 80px;
+  }
+  .cloud1 {
+      position: absolute;
+      animation: cloudOne infinite 30s linear;
+      animation-delay: -3s;
+      -webkit-animation-name: cloudOne;
+      -webkit-animation-play-state: running;
+      -webkit-animation-delay: -3s;
+      -webkit-animation-duration: 30s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: running;
+      -webkit-animation-iteration-count: infinite;
+  }
+  .jumbotron .cloud2 {
+      top: -60px;
+  }
+  .cloud2 {
+      position: absolute;
+      animation: cloudTwo infinite 25s linear;
+      animation-delay: -3s;
+      -webkit-animation-name: cloudTwo;
+      -webkit-animation-delay: -3s;
+      -webkit-animation-duration: 25s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: running;
+      -webkit-animation-iteration-count: infinite;
+  }
+  .jumbotron .cloud3 {
+      top: 50px;
+  }
+  .cloud3 {
+      position: absolute;
+      animation: cloudThree infinite 15s linear;
+      animation-delay: -3s;
+      -webkit-animation-name: cloudThree;
+      -webkit-animation-delay: -3s;
+      -webkit-animation-duration: 15s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: running;
+      -webkit-animation-iteration-count: infinite;
+  }
+  .jumbotron .cloud4 {
+      top: 50px;
+  }
+  .cloud4 {
+      position: absolute;
+      animation: cloudFour infinite 30s linear;
+      animation-delay: -3s;
+      -webkit-animation-name: cloudFour;
+      -webkit-animation-delay: -3s;
+      -webkit-animation-duration: 30s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: running;
+      -webkit-animation-iteration-count: infinite;
+  }
+  @media only screen and (min-width: 0px) and (max-width:992px) {
+    .jumbotron h2{
+        font-size: 7vh;
+    }
+}
