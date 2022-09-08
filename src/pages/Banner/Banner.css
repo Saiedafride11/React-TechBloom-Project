@@ -1,5 +1,5 @@
 #intro {
-      position: relative;
+      /* position: relative; */
       background-color: #fff;
       opacity: 0.966289;
       transform: translate(0%, 1.68555%) matrix(0.983145, 0, 0, 0.983145, 0, 0);
@@ -26,15 +26,13 @@
       z-index: 0;
   }
   .animation {
-      position: relative;
-      top: -430px;
+      /* position: relative;
+      top: -430px; */
       color: #000;
   }
   .jumbotron .cloud1 {
-      top: 80px;
-  }
-  .cloud1 {
       position: absolute;
+      top: 80px;
       animation: cloudOne infinite 30s linear;
       animation-delay: -3s;
       -webkit-animation-name: cloudOne;
@@ -45,12 +43,11 @@
       -webkit-animation-fill-mode: forwards;
       -webkit-animation-fill-mode: running;
       -webkit-animation-iteration-count: infinite;
+      z-index: 999;
   }
   .jumbotron .cloud2 {
-      top: -60px;
-  }
-  .cloud2 {
       position: absolute;
+      top: -60px;
       animation: cloudTwo infinite 25s linear;
       animation-delay: -3s;
       -webkit-animation-name: cloudTwo;
@@ -62,10 +59,8 @@
       -webkit-animation-iteration-count: infinite;
   }
   .jumbotron .cloud3 {
-      top: 50px;
-  }
-  .cloud3 {
       position: absolute;
+      top: 50px;
       animation: cloudThree infinite 15s linear;
       animation-delay: -3s;
       -webkit-animation-name: cloudThree;
@@ -76,11 +71,10 @@
       -webkit-animation-fill-mode: running;
       -webkit-animation-iteration-count: infinite;
   }
+
   .jumbotron .cloud4 {
-      top: 50px;
-  }
-  .cloud4 {
       position: absolute;
+      top: 50px;
       animation: cloudFour infinite 30s linear;
       animation-delay: -3s;
       -webkit-animation-name: cloudFour;
@@ -91,6 +85,75 @@
       -webkit-animation-fill-mode: running;
       -webkit-animation-iteration-count: infinite;
   }
+
+@keyframes cloudOne {
+    0%{
+        top: 0;
+        left: 10%;
+    }
+    25%{
+        top: 0;
+        left: 50%;
+    }
+    50%{
+        top: 0;
+        left: 75%;
+    }
+}
+@keyframes cloudTwo {
+    0%{
+        top: 20%;
+        left: 50%;
+    }
+    25%{
+        top: 20%;
+        left: 0%;
+    }
+    50%{
+        top: 20%;
+        left: 20%;
+    }
+    75%{
+        top: 0%;
+        left: 0%;
+    }
+}
+@keyframes cloudThree {
+    0%{
+        top: 60%;
+        left: 0%;
+    }
+    25%{
+        top: 60%;
+        left: 25%;
+    }
+    50%{
+        top: 0%;
+        left: 50%;
+    }
+    75%{
+        top: 60%;
+        left: 0;
+    }
+}
+@keyframes cloudFour {
+    0%{
+        top: 80%;
+        left: 75%;
+    }
+    25%{
+        top: 80%;
+        left: 100%;
+    }
+    50%{
+        top: 80%;
+        left: 25%;
+    }
+    75%{
+        top: 80%;
+        left: 50%;
+    }
+}
   @media only screen and (min-width: 0px) and (max-width:992px) {
     .jumbotron h2{
         font-size: 7vh;
