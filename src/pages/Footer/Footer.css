@@ -1,0 +1,23 @@
+.footer{
+      display: flex;
+      align-items: 'center';
+}
+.footer-icon{
+      display: flex;
+      align-items: 'center';
+      width: 40%;
+}
+@media only screen and (max-width: 576px){
+      .footer{
+            display: flex;
+            align-items: 'center';
+            flex-direction: column;
+      }
+      .footer-icon{
+            display: flex;
+            align-items: 'center';
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 20px;
+      }
+  }

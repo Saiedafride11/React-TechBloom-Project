@@ -128,51 +128,61 @@
         transform: translateX(100%)
     }
 }
-@media only screen and (min-width: 0px) and (max-width:992px) {
+@media only screen and (min-width: 500px) and (max-width: 1200px) {
+    .jumbotron h2{
+        font-size: 7vh;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 500px) {
     .jumbotron h2{
         font-size: 7vh;
     }
 }
 
+
+@media only screen and (min-width: 1200px){
+    /* .jumbotron {
+        height: 100vh;
+    } */
+}
+
+@media only screen and (min-width: 992px){
+    /* .jumbotron {
+        height: 95vh;
+    } */
+}
+
 @media (min-width: 768px){
+    /* .jumbotron {
+        height: 85vh;
+    } */
     .jumbotron .cloud1 {
         top: 60px;
     }
-}
-@media only screen and (min-width: 576px){
-    .jumbotron .cloud1 {
-        top: 150px;
-    }
-}
-
-@media (min-width: 768px){
     .jumbotron .cloud2 {
         top: -2%;
     }
-}
-@media only screen and (min-width: 576px){
-    .jumbotron .cloud2 {
-        top: 120px;
-    }
-}
-
-@media (min-width: 768px){
     .jumbotron .cloud3 {
         top: 30%;
     }
-}
-@media only screen and (min-width: 576px){
-    .jumbotron .cloud3 {
-        top: 170px;
-    }
-}
-@media (min-width: 768px){
     .jumbotron .cloud4 {
         top: 35%;
     }
 }
-@media only screen and (min-width: 576px){
-    .jumbotron .cloud4 {
+@media only screen and (max-width: 576px){
+    /* .jumbotron {
+        height: 75vh;
+    } */
+    .jumbotron .cloud1 {
         top: 150px;
+    }
+    .jumbotron .cloud2 {
+        top: 200px;
+    }
+    .jumbotron .cloud3 {
+        top: 220px;
+    }
+    .jumbotron .cloud4 {
+        top: 250px;
     }
 }

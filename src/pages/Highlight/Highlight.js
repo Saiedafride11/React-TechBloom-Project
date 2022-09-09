@@ -15,7 +15,7 @@ const data = [
 const Highlight = () => {
       return (
             <div className="container mx-auto px-8">
-                  <h3 className="col text-right px-3 px-sm-2 px-md-0 my-5" style={{fontSize: "2.5em"}}>HIGHLIGHTS</h3>
+                  <h3 className="col text-center px-3 px-sm-2 px-md-0 my-5" style={{fontSize: "2.5em"}}>HIGHLIGHTS</h3>
                   <div className="tmp-highlight tmp-highlight-top">
                         <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
                               <div className="tmp-highlight-inner highlight-extra" style={{height: '285px', backgroundImage: `url(${data[0].img})`}}>

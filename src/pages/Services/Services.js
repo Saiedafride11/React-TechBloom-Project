@@ -13,7 +13,7 @@ const data = [
 const Services = () => {
       return (
             <div className="container mx-auto px-8">
-                  <h3 className="col text-right px-3 px-sm-2 px-md-0 my-5" style={{fontSize: "2.5em"}}>OUR SERVICES</h3>
+                  <h3 className="col text-center px-3 px-sm-2 px-md-0 my-5" style={{fontSize: "2.5em"}}>OUR SERVICES</h3>
                   <div className="tmp-container">
                         <div>
                               <div className="tmp-inner" style={{height: '450px', backgroundImage: `url(${data[0].img})`}}>

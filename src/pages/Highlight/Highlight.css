@@ -41,3 +41,9 @@
             margin-bottom: 30px
       }
 }
+@media only screen and (min-width: 0px) and (max-width:500px) {
+      .tmp-highlight .tmp-highlight-inner h1{
+            font-size: 35px;
+            letter-spacing: 1px;
+      } 
+}
