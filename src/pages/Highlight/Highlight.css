@@ -36,9 +36,6 @@
       .tmp-highlight{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-      } 
-      .highlight-extra{
-            margin-bottom: 30px
       }
 }
 @media only screen and (min-width: 0px) and (max-width:500px) {

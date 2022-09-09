@@ -19,9 +19,9 @@ const Highlight = () => {
                   <h3 className="col text-center px-3 px-sm-2 px-md-0 my-5" style={{fontSize: "2.5em"}}>HIGHLIGHTS</h3>
                   <div className="tmp-highlight tmp-highlight-top">
                         <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                              <div style={{backgroundColor: "#FF906F"}}>
+                              <div style={{backgroundColor: "#FF906F", marginBottom: "30px"}}>
                                     <Fade top>
-                                          <div className="tmp-highlight-inner highlight-extra" style={{height: '285px', backgroundImage: `url(${data[0].img})`}}></div>
+                                          <div className="tmp-highlight-inner" style={{height: '285px', backgroundImage: `url(${data[0].img})`}}></div>
                                     </Fade>
                               </div>
                               <div style={{backgroundColor: "#FF906F"}}>
@@ -59,9 +59,9 @@ const Highlight = () => {
                               </div>
                         </div>
                         <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                              <div style={{backgroundColor: "#FF906F"}}>
+                              <div style={{backgroundColor: "#FF906F", marginBottom: "30px"}}>
                                     <Fade top>
-                                          <div className="tmp-highlight-inner highlight-extra" style={{height: '285px', backgroundImage: `url(${data[6].img})`}}></div>
+                                          <div className="tmp-highlight-inner" style={{height: '285px', backgroundImage: `url(${data[6].img})`}}></div>
                                     </Fade>
                               </div>
                               <Fade top>
