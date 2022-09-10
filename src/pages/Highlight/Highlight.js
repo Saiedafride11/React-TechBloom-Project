@@ -15,62 +15,64 @@ const data = [
 
 const Highlight = () => {
       return (
-            <div className="container mx-auto px-8">
-                  <h3 className="col text-center px-3 px-sm-2 px-md-0 my-5" style={{fontSize: "2.5em"}}>HIGHLIGHTS</h3>
-                  <div className="tmp-highlight tmp-highlight-top">
-                        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                              <div style={{backgroundColor: "#FF906F", marginBottom: "30px"}}>
-                                    <Fade top>
-                                          <div className="tmp-highlight-inner" style={{height: '285px', backgroundImage: `url(${data[0].img})`}}></div>
-                                    </Fade>
-                              </div>
-                              <div style={{backgroundColor: "#FF906F"}}>
-                                    <Fade top>
-                                          <div className="tmp-highlight-inner" style={{height: '285px', backgroundImage: `url(${data[1].img})`}}></div>
-                                    </Fade>
-                              </div>
-                        </div>
-                        <div>
-                              <div style={{backgroundColor: "#FF906F"}}>
-                                    <Fade top>
-                                          <div className="tmp-highlight-inner" style={{height: '600px', backgroundImage: `url(${data[2].img})`}}></div>
-                                    </Fade>
-                              </div>
-                        </div>
-                  </div>
-                  <div className="tmp-highlight tmp-highlight-middle">
-                        <div style={{backgroundColor: "#FF906F"}}>
-                              <Fade top>
-                                    <div className="tmp-highlight-inner" style={{height: '300px', backgroundImage: `url(${data[3].img})`}}></div>
-                              </Fade>
-                        </div>
-                        <div style={{backgroundColor: "#FF906F"}}>
-                              <Fade top>
-                                    <div className="tmp-highlight-inner" style={{height: '300px', backgroundImage: `url(${data[4].img})`}}></div>
-                              </Fade>
-                        </div>
-                  </div>
-                  <div className="tmp-highlight tmp-highlight-bottom">
-                        <div>
-                              <div style={{backgroundColor: "#FF906F"}}>
-                                    <Fade top>
-                                          <div className="tmp-highlight-inner" style={{height: '600px', backgroundImage: `url(${data[5].img})`}}></div>
-                                    </Fade>
-                              </div>
-                        </div>
-                        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                              <div style={{backgroundColor: "#FF906F", marginBottom: "30px"}}>
-                                    <Fade top>
-                                          <div className="tmp-highlight-inner" style={{height: '285px', backgroundImage: `url(${data[6].img})`}}></div>
-                                    </Fade>
-                              </div>
-                              <Fade top>
-                                    <div className="tmp-highlight-inner" style={{height: '285px', backgroundColor: "#FF906F"}}>
-                                          <h1>LET'S CHAT!</h1>
+            <div className="highlight-section">
+                  <div className="container mx-auto px-8">
+                        <h3 className="col px-3 px-sm-2 px-md-0">HIGHLIGHTS</h3>
+                        <div className="tmp-highlight tmp-highlight-top">
+                              <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+                                    <div style={{backgroundColor: "#FF906F", marginBottom: "30px"}}>
+                                          <Fade top>
+                                                <div className="tmp-highlight-inner" style={{height: '285px', backgroundImage: `url(${data[0].img})`}}></div>
+                                          </Fade>
                                     </div>
-                              </Fade>
+                                    <div style={{backgroundColor: "#FF906F"}}>
+                                          <Fade top>
+                                                <div className="tmp-highlight-inner" style={{height: '285px', backgroundImage: `url(${data[1].img})`}}></div>
+                                          </Fade>
+                                    </div>
+                              </div>
+                              <div>
+                                    <div style={{backgroundColor: "#FF906F"}}>
+                                          <Fade top>
+                                                <div className="tmp-highlight-inner" style={{height: '600px', backgroundImage: `url(${data[2].img})`}}></div>
+                                          </Fade>
+                                    </div>
+                              </div>
                         </div>
+                        <div className="tmp-highlight tmp-highlight-middle">
+                              <div style={{backgroundColor: "#FF906F"}}>
+                                    <Fade top>
+                                          <div className="tmp-highlight-inner" style={{height: '300px', backgroundImage: `url(${data[3].img})`}}></div>
+                                    </Fade>
+                              </div>
+                              <div style={{backgroundColor: "#FF906F"}}>
+                                    <Fade top>
+                                          <div className="tmp-highlight-inner" style={{height: '300px', backgroundImage: `url(${data[4].img})`}}></div>
+                                    </Fade>
+                              </div>
+                        </div>
+                        <div className="tmp-highlight tmp-highlight-bottom">
+                              <div>
+                                    <div style={{backgroundColor: "#FF906F"}}>
+                                          <Fade top>
+                                                <div className="tmp-highlight-inner" style={{height: '600px', backgroundImage: `url(${data[5].img})`}}></div>
+                                          </Fade>
+                                    </div>
+                              </div>
+                              <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+                                    <div style={{backgroundColor: "#FF906F", marginBottom: "30px"}}>
+                                          <Fade top>
+                                                <div className="tmp-highlight-inner" style={{height: '285px', backgroundImage: `url(${data[6].img})`}}></div>
+                                          </Fade>
+                                    </div>
+                                    <Fade top>
+                                          <div className="tmp-highlight-inner" style={{height: '285px', backgroundColor: "#FF906F"}}>
+                                                <h1>LET'S CHAT!</h1>
+                                          </div>
+                                    </Fade>
+                              </div>
 
+                        </div>
                   </div>
             </div>
       );

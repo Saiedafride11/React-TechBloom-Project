@@ -140,22 +140,8 @@
 }
 
 
-@media only screen and (min-width: 1200px){
-    /* .jumbotron {
-        height: 100vh;
-    } */
-}
-
-@media only screen and (min-width: 992px){
-    /* .jumbotron {
-        height: 95vh;
-    } */
-}
 
 @media (min-width: 768px){
-    /* .jumbotron {
-        height: 85vh;
-    } */
     .jumbotron .cloud1 {
         top: 60px;
     }
@@ -169,10 +155,8 @@
         top: 35%;
     }
 }
-@media only screen and (max-width: 576px){
-    /* .jumbotron {
-        height: 75vh;
-    } */
+
+@media only screen and (max-width: 768px){
     .jumbotron .cloud1 {
         top: 150px;
     }
@@ -184,5 +168,19 @@
     }
     .jumbotron .cloud4 {
         top: 250px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .jumbotron .cloud1 {
+        top: 200px;
+    }
+    .jumbotron .cloud2 {
+        top: 220px;
+    }
+    .jumbotron .cloud3 {
+        top: 250px;
+    }
+    .jumbotron .cloud4 {
+        top: 270px;
     }
 }

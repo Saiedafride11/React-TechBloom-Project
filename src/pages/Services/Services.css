@@ -1,11 +1,16 @@
-.tmp-container{
+.service-section h3{
+  font-size: 2.5em;
+  text-align: right;
+  margin: 50px 0px 0px
+}
+.tmp-service{
       width: 70%;
       margin: 50px auto;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 50% 50%;
       grid-column-gap: 30px;
-    }
-    .tmp-inner{
+}
+.tmp-inner{
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -17,21 +22,18 @@
       background-color:grey;
       margin-bottom: 30px;
       position: relative;
-    }
-    .tmp-inner h2{
-      font-size: 36px;
-      line-height: 40px;
+  }
+.tmp-inner h4{
+      font-size: 28px;
       color: #fff;
-      text-transform: uppercase;
-      font-weight: 700;
-    }
-    .tmp-inner h4{
-      font-size: 22px;
+      font-weight: 600;
+}
+.tmp-inner p{
+      font-size: 16px;
       font-weight: 600;
       color: #fff;
-      text-transform: uppercase;
-    }
-    .tmp-inner .hover-box{
+}
+.tmp-inner .hover-box{
       position: absolute;
       top:0px;
       left: 0px;
@@ -40,31 +42,37 @@
       background: #222;
       opacity: 0;
       transition: 0.6s linear;
-    }
-    .tmp-inner .hover-box span{
-          position: absolute;
-      top:100%;
-          left:20%;
+}
+.tmp-inner .hover-box span{
+      position: absolute;
+      top:50%;
+      left:10%;
       opacity: 0;
-          transform: translate(-50%, -50%);
-    }
-    .tmp-inner:hover{
+      transform: translate(-5%, -50%);
+}
+.tmp-inner:hover{
       transform: scale(.9);
       transition:1s;
-    }
-    .tmp-inner:hover .hover-box{
+}
+.tmp-inner:hover .hover-box{
       opacity: 0.8;
       background: #222;
       transition: 1s;
-    }
-    .tmp-inner:hover span{
+}
+.tmp-inner:hover span{
       opacity: 1;
       top:80%;
       transition: 1s;
-    }
-    @media only screen and (min-width: 0px) and (max-width:992px) {
-      .tmp-container{
-          display: grid;
-          grid-template-columns: repeat(1, 1fr);
-      } 
-    }
+}
+@media only screen and (min-width: 0px) and (max-width:992px) {
+.tmp-service{
+      width: 90%;
+}
+  .tmp-service{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .service-section h3{
+    text-align: center;
+  }
+}
