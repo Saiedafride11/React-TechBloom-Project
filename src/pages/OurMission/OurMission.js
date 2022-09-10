@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const OurMission = () => {
       return (
             <div className="our-mission">
-                 <div className="container mx-auto px-8">
+                 <div className="container mx-auto">
                         <Fade left>
                                <h6>OUR MISSION</h6>
                         </Fade>

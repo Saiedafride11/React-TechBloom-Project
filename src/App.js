@@ -5,6 +5,7 @@ import TopScroll from './pages/TopScroll/TopScroll';
 import Services from './pages/Services/Services';
 import OurMission from './pages/OurMission/OurMission';
 import Banner from './pages/Banner/Banner';
+import BottomScroll from './pages/BottomScroll/BottomScroll';
 
 
 
@@ -45,7 +46,7 @@ function App() {
       <OurMission/>
       <Highlight/>
       <Footer/>
-      <TopScroll/>
+      <BottomScroll/>
     </div>
     
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import TopScroll from '../TopScroll/TopScroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faTwitterSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,6 +14,7 @@ const Footer = () => {
                               <FontAwesomeIcon icon={faYoutubeSquare} style={{color: "#fff", width: "30px", height: "30px"}}/>
                         </div>
                         <p style={{color: "#fff", textAlign: "center"}}>© Techboom 2018. All rights reserved.</p>
+                  <TopScroll/>
                   </div>
             </div>
       );
