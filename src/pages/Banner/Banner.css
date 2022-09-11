@@ -27,23 +27,26 @@
       margin: 0 0;
       color: #000;
       border-radius: 0 !important;
-  }
-.jumbotron h2{
+}
+.jumbotron .jumbotron-heading1{
       font-family: Monoton, cursive;
       font-size: 15vh;
       top: -5px;
       z-index: 0;
-  }
-  .animation {
+}
+.jumbotron .jumbotron-heading2, .jumbotron .jumbotron-heading3{
+      font-size: 0px;
+}
+.animation {
       position: relative;
       top: -430px;
       color: #000;
-  }
+}
   /* .animation img{
       width: 100%;
   } */
 
-  .jumbotron .cloud1 {
+.jumbotron .cloud1 {
     position: absolute;
     animation: cloudOne infinite 30s linear;
     animation-delay: -3s;
@@ -55,9 +58,9 @@
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: running;
     -webkit-animation-iteration-count: infinite;
-  }
+}
 
-  .jumbotron .cloud2 {
+.jumbotron .cloud2 {
     position: absolute;
     animation: cloudTwo infinite 25s linear;
     animation-delay: -3s;
@@ -68,9 +71,9 @@
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: running;
     -webkit-animation-iteration-count: infinite;
-  }
+}
 
-  .jumbotron .cloud3 {
+.jumbotron .cloud3 {
     position: absolute;
     animation: cloudThree infinite 15s linear;
     animation-delay: -3s;
@@ -81,9 +84,9 @@
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: running;
     -webkit-animation-iteration-count: infinite;
-  }
+}
 
-  .jumbotron .cloud4 {
+.jumbotron .cloud4 {
     position: absolute;
     animation: cloudFour infinite 30s linear;
     animation-delay: -3s;
@@ -94,7 +97,7 @@
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: running;
     -webkit-animation-iteration-count: infinite;
-  }
+}
 
 @keyframes cloudOne {
     0% {
@@ -128,18 +131,17 @@
         transform: translateX(100%)
     }
 }
-@media only screen and (min-width: 500px) and (max-width: 1200px) {
-    .jumbotron h2{
-        font-size: 7vh;
-    }
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+    .jumbotron .jumbotron-heading1{
+        font-size: 0px;
+  }
+  .jumbotron .jumbotron-heading2, .jumbotron .jumbotron-heading3{
+        font-family: Monoton, cursive;
+        font-size: 15vh;
+        top: -5px;
+        z-index: 0;
+  }
 }
-@media only screen and (min-width: 0px) and (max-width: 500px) {
-    .jumbotron h2{
-        font-size: 7vh;
-    }
-}
-
-
 
 @media (min-width: 768px){
     .jumbotron .cloud1 {

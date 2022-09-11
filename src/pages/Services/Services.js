@@ -13,7 +13,7 @@ const data = [
 
 const Services = () => {
       return (
-            <div className="service-section">
+            <div className="service-section" id="services">
                   <div className="container mx-auto px-8">
                         <h3 className="col px-3 px-sm-2 px-md-0">OUR SERVICES</h3>
                         <div className="tmp-service">

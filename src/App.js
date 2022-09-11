@@ -6,6 +6,7 @@ import Services from './pages/Services/Services';
 import OurMission from './pages/OurMission/OurMission';
 import Banner from './pages/Banner/Banner';
 import BottomScroll from './pages/BottomScroll/BottomScroll';
+import MessageBox from './pages/MessageBox/MessageBox';
 
 
 
@@ -46,6 +47,7 @@ function App() {
       <OurMission/>
       <Highlight/>
       <Footer/>
+      <MessageBox/>
       <BottomScroll/>
     </div>
     
