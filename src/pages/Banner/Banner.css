@@ -173,6 +173,9 @@
     }
 }
 @media only screen and (max-width: 450px){
+    .jumbotron .jumbotron-heading2, .jumbotron .jumbotron-heading3{
+        font-size: 10vh !important;
+    }
     .jumbotron .cloud1 {
         top: 200px;
     }

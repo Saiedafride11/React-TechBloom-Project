@@ -22,7 +22,7 @@ const onSubmit = data => {
             <button onClick={() => setOpen(true)} style={{backgroundColor: '#FF906F'}}><FontAwesomeIcon icon={faMessage}/></button>
       }
       {open === true && 
-            <button onClick={() => setOpen(false)} ref={cancelButtonRef} style={{backgroundColor: '#FF906F', right: "55px"}}><FontAwesomeIcon icon={faXmark} ref={cancelButtonRef}/></button>
+            <button onClick={() => setOpen(false)} ref={cancelButtonRef} style={{backgroundColor: '#FF906F'}}><FontAwesomeIcon icon={faXmark} ref={cancelButtonRef}/></button>
       }
         
         <div className="Message-box-modal">
